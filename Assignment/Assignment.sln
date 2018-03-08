@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Assignment", "Assignment\Assignment.ccproj", "{4A29CDD5-082A-4FA6-9EB5-502E66479C58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole1", "WebRole1\WebRole1.csproj", "{3890E8C9-4880-46EF-9058-EED1D228FAD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A29CDD5-082A-4FA6-9EB5-502E66479C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A29CDD5-082A-4FA6-9EB5-502E66479C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A29CDD5-082A-4FA6-9EB5-502E66479C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A29CDD5-082A-4FA6-9EB5-502E66479C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3890E8C9-4880-46EF-9058-EED1D228FAD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3890E8C9-4880-46EF-9058-EED1D228FAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3890E8C9-4880-46EF-9058-EED1D228FAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3890E8C9-4880-46EF-9058-EED1D228FAD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDA4DEFC-9A59-4CC9-BAEC-BD0B40DBA78D}
+	EndGlobalSection
+EndGlobal
