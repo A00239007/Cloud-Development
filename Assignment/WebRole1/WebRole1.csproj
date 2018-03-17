@@ -103,12 +103,20 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="StartingPage.aspx" />
     <Content Include="Web.config" />
     <Content Include="WelcomePage.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Newspaper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StartingPage.aspx.cs">
+      <DependentUpon>StartingPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StartingPage.aspx.designer.cs">
+      <DependentUpon>StartingPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebRole.cs" />
     <Compile Include="WelcomePage.aspx.cs">
       <DependentUpon>WelcomePage.aspx</DependentUpon>
