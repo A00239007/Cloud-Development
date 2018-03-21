@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Assignment02 {
+namespace Assignment002 {
     
     
     public partial class ApplicationPage {

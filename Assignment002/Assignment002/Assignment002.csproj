@@ -8,12 +8,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{BA525A92-D23E-45B1-BFC2-D1B84C840C75}</ProjectGuid>
+    <ProjectGuid>{5F1E66D1-0360-47C8-B930-B970EFC0C9F4}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Assignment02</RootNamespace>
-    <AssemblyName>Assignment02</AssemblyName>
+    <RootNamespace>Assignment002</RootNamespace>
+    <AssemblyName>Assignment002</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -75,9 +75,29 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ApplicationPage.aspx" />
+    <Content Include="App_Data\NewspaperDatabase.mdf" />
+    <Content Include="App_Data\NewspaperDatabase_log.ldf">
+      <DependentUpon>NewspaperDatabase.mdf</DependentUpon>
+    </Content>
+    <Content Include="NewspaperPage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationPage.aspx.cs">
+      <DependentUpon>ApplicationPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplicationPage.aspx.designer.cs">
+      <DependentUpon>ApplicationPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewspaperPage.aspx.cs">
+      <DependentUpon>NewspaperPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewspaperPage.aspx.designer.cs">
+      <DependentUpon>NewspaperPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>
@@ -93,9 +113,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>49396</DevelopmentServerPort>
+          <DevelopmentServerPort>49229</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:49396/</IISUrl>
+          <IISUrl>http://localhost:49229/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

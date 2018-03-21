@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ApplicationPage.aspx.cs" Inherits="Assignment02.ApplicationPage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ApplicationPage.aspx.cs" Inherits="Assignment002.ApplicationPage" %>
 
 <!DOCTYPE html>
 
@@ -89,10 +89,10 @@
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style3">
-                        <asp:Button ID="Button1" runat="server" Text="Next" Width="164px" />
+                        <asp:Button ID="Button1" runat="server" Text="Next" Width="164px" OnClick="Button1_Click" />
                     </td>
                     <td class="auto-style1">
-                        <asp:Button ID="Button5" runat="server" Text="Previous" Width="126px" />
+                        <asp:Button ID="Button5" runat="server" Text="Previous" Width="126px" OnClick="Button5_Click" />
                     </td>
                     <td class="auto-style1">&nbsp;</td>
                 </tr>
@@ -109,7 +109,7 @@
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style3">
-                        <asp:Button ID="Button3" runat="server" Text="Update" Width="164px" />
+                        <asp:Button ID="Button3" runat="server" Text="Update" Width="164px" OnClick="Button3_Click" />
                     </td>
                     <td class="auto-style1">
                         <asp:Button ID="Button7" runat="server" OnClick="Button7_Click" Text="Search" Width="125px" />
