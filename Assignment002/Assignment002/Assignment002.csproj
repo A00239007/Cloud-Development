@@ -76,6 +76,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ApplicationPage.aspx" />
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Data\NewspaperDatabase.mdf" />
     <Content Include="App_Data\NewspaperDatabase_log.ldf">
       <DependentUpon>NewspaperDatabase.mdf</DependentUpon>
@@ -111,7 +115,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>49229</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

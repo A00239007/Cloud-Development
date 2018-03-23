@@ -99,10 +99,10 @@
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style3">
-                        <asp:Button ID="Button2" runat="server" Text="Insert" Width="164px" />
+                        <asp:Button ID="Button2" runat="server" Text="Insert" Width="164px" OnClick="Button2_Click" />
                     </td>
                     <td class="auto-style1">
-                        <asp:Button ID="Button6" runat="server" Text="Delete" Width="125px" />
+                        <asp:Button ID="Button6" runat="server" Text="Delete" Width="125px" OnClick="Button6_Click" />
                     </td>
                     <td class="auto-style1">&nbsp;</td>
                 </tr>
@@ -119,7 +119,7 @@
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
                     <td class="auto-style3">
-                        <asp:Button ID="Button4" runat="server" Text="Close" Width="165px" />
+                        <asp:Button ID="Button4" runat="server" Text="Close" Width="165px" OnClick="Button4_Click" />
                     </td>
                     <td class="auto-style1">&nbsp;</td>
                     <td class="auto-style1">&nbsp;</td>
